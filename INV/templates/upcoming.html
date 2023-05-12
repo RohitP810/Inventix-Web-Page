@@ -1,0 +1,57 @@
+{%  load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<title>Events</title>
+	
+	<link rel="stylesheet" href="{% static 'styles\event.css' %}">
+
+	<style>
+		* {
+		  box-sizing: border-box;
+		}
+		
+		.co {
+			
+		    float: left;
+		    width: 33.33%;
+		    padding: 5px;
+		  
+		}
+		
+		.ro::after {
+		  content: "";
+		  clear: both;
+		  display: table;
+		}
+		</style>
+</head>
+<body>
+<header>
+<section class="events">
+	    <div class="title">
+	        <a href="#"><h1>Upcoming Events</h1></a>
+	    </div>
+		<div class="ro">
+		    <div class="co">
+		        <img src="https://cdn-icons-png.flaticon.com/128/9811/9811443.png" >
+			    <a href="kuru.html" class='ctn1'><h5>Kurukshetra</h5></a>
+			</div>
+			<div class="co">
+				<img src="https://cdn.iconscout.com/icon/free/png-256/algorithms-data-flow-chart-hierarchy-square-analytics-4-5426.png" >
+			    <a href="dsa.html" class='ctn1'><h5>Workshop on DSA</h5></a>
+			</div>
+            <div class="co">
+				<img src="https://cdn-icons-png.flaticon.com/128/3519/3519037.png" >
+			    <a href="gdc.html" class='ctn1'><h5>Graphic Designing Competetion</h5></a>
+			</div>
+		</div>
+	</section>
+</header>
+	
+</body>
+</html>

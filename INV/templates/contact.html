@@ -1,0 +1,62 @@
+{%  load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles\contactmain.css' %}">
+    <link rel="stylesheet" href="{% static 'styles\contact.css' %}">
+    <title>contact me</title>
+</head>
+<body>
+    <div class="headder">
+        <span><img src="{% static 'images\logosize.' %}' %}" alt="" class="top_logo">
+        </span>
+        <table>
+              <tr>
+                  <div class="space">
+                  <td><a href="home" class="glow-on-hover">Home</a></td>
+                  <td><a href="event" class="glow-on-hover">Events</a></td>
+                  <td><a href="" class="glow-on-hover"class="glow-on-hover">Gallery</a></td>
+                  <td><a href="about" class="glow-on-hover">About</a></td>
+                  <td><a href="contact" class="glow-on-hover">Contact</a></td>
+                  </div>
+              </tr>
+          </table>
+      </div>
+
+<div class="main" style="text-align: left;">
+ <div class="contact">
+    <div class="anc_tags">
+       <a href=""> <div><img src="{% static 'images\phone2.png' %}" alt=""class="anc_img"> <div style="font-size: 1.2rem; padding-top: 0.6rem;">call us</div></div></a>
+       <a href=""><div><img src="{% static 'images\mail3(1).png' %}" alt=""class="anc_img"> <div style="font-size: 1.1rem; padding-top: 0.8rem;">mail us</div></div></a> 
+       <a href=""> <div><img src="{% static 'images\linkedin.png' %}" alt=""class="anc_img"> <div style="font-size: 1.1rem; padding-top: 0.8rem;">linkedin</div></div> </a>       
+    </div>
+    <div class="fill_box">
+        <form action="">
+            <div class="input_contact">
+                <label for="name">Your name :</label>
+                <input type="text" class="input_contact">
+            </div>
+            <div class="input_contact">
+                <label for="email">Your email :</label>
+                <input type="email" class="input_contact">
+            </div>
+            <div class="input_contact">
+                <label for="subject">Enter subject :</label>
+                <input type="text" class="input_contact">
+            </div>
+            <div class="input_contact">
+                <label for="descriptiobn">Enter the problem :</label>
+                <textarea name="description" id="" cols="150" rows="5"></textarea>
+            </div><div><br></div>
+            <div style="text-align: center;" >
+                <button>submit</button>
+            </div>
+        </form>
+    </div>
+ </div>
+</div>
+</body>
+</html>

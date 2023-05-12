@@ -1,0 +1,157 @@
+form {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  justify-content: space-evenly;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"], input[type="email"],input[type="number"],input[type="radio"] ,select{
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    opacity: 85%;
+    max-width:350px;
+    min-width: 100px;
+    position:static;
+  }
+  select{
+    padding: 0.8rem;
+  }
+  input:focus {
+    outline: none;
+    border-color: #87e8d3;
+    box-shadow: 0 0 10px #87e8d3;
+  }
+  button {
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position:inherit;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .container1{
+    display: grid;
+    grid-template-rows: auto;
+    position: static;
+}
+
+  .left
+  {
+    display: grid;
+    grid-template-rows: auto;
+    width: 335px;
+    margin: 0%;
+  }
+  .middle
+  {
+    display: grid;
+    grid-template-rows: auto;
+    width: 335px;
+    margin: 0%;
+
+  }
+  .right
+  {
+    display: grid;
+    grid-template-rows: auto;
+    width: 335px;
+    margin: 0%;
+
+  }
+
+.submit
+{
+ min-height: 3rem;
+}
+@media only screen and (max-width:1300px) and (min-width: 920px){
+  .container1{
+    display: grid;
+    grid-template-rows: auto;
+    position: static;
+  }
+  form {
+    display: grid;
+    grid-template-rows: auto ;
+    grid-template-columns: auto auto;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .left
+  {
+    display: grid;
+    grid-template-rows: auto;
+    width: 335px;
+    margin: 0%;
+    margin-bottom: 2rem;
+  }
+  .middle
+  {
+    display: grid;
+    grid-template-rows: auto;
+    width: 335px;
+    margin: 0%;
+    margin-bottom: 2rem;
+
+
+  }
+  .right
+  {
+    display: grid;
+    grid-template-rows: auto;
+    width: 335px;
+    margin: 0%;
+    margin-bottom: 2rem;
+
+
+  }
+}
+@media only screen and (max-width:920px){
+  .left
+  {
+    display: grid;
+    grid-template-rows: auto;
+    margin: auto;
+    min-width: 335px;
+  }
+  .middle
+  {
+    display: grid;
+    grid-template-rows: auto;
+    margin: auto;
+    min-width: 335px;
+  }
+  .right
+  {
+    display: grid;
+    grid-template-rows: auto;
+    margin:auto;
+    min-width: 335px;
+  }
+  .container1{
+    display: grid;
+    grid-template-rows: auto;
+    position: static;
+}
+form {
+  display: grid;
+  grid-template-columns: auto ;
+  width: 100%;
+  justify-content: center;
+}
+}

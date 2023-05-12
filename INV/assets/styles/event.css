@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+header{
+	width:100vw;
+	height:100vh;
+	background-image: url('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/434310/02f0eabf17fe99701d05f371387381e3dd696c6c.jpg');
+	background-position:bottom;
+	background-size:cover;
+	display:flex;
+	align-items:center;
+    justify-content:center;
+}
+
+section{
+	width:70%;
+	margin:80px auto;
+}
+
+.title{
+	text-align:center;
+	font-size:4vmin;
+	color:rgb(73,73,126);
+}
+
+.row{
+	display:flex;
+	align-items:center;
+	width:100%;
+	justify-content:space-between;
+}
+
+.row .col{
+	width:80%;
+	flex-direction:column;
+	align-items:center;
+}
+
+.events .row{
+	margin-top:10px;
+}
+
+h1{
+    color:aliceblue;
+    font-size:50px;
+    font-family: sans-serif;
+	text-decoration: none;
+}
+
+h5{
+	font-size:5vmin;
+	color:aliceblue;
+    padding: 8px 8px;
+    background-color: rgb(188, 131, 214);
+    text-align: center;
+    border-radius: 30px;
+}
+h5:hover{
+    color:blueviolet;
+}
+
+p{
+	color:#c8ecec;
+	padding:0px 40px;
+    font-size: 20px;
+}
+
+img{
+    width: 260px;
+    align-content:  center;
+    padding-left: 115px;
+}
+
+img:hover{
+    cursor: pointer;
+    width:270px;
+	
+}
+.ima:hover img{
+	width:270px;
+	height:230px;
+}
+a{
+    font-family: sans-serif;
+	text-decoration: none;
+}

@@ -1,0 +1,85 @@
+/*Body*/
+
+
+body {
+    background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/434310/02f0eabf17fe99701d05f371387381e3dd696c6c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0px;
+}
+
+
+/*Menu Bar*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*
+{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    position:absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    padding:30px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo
+{
+    color:white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a
+{
+    text-decoration: none;
+    padding:6px 15px;
+    color:white;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active{
+    background: white;
+    color: #462275;
+}
+   
+
+/*Introduction*/
+
+div.one{
+    width: 75vw;
+}
+
+
+p.one{
+    color: white;
+    font-size:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

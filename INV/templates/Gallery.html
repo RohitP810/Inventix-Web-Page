@@ -1,0 +1,83 @@
+{%  load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>INVENTIX</title>
+    <link rel="stylesheet"  href="{% static 'styles\Home.css' %}">
+    <link rel="stylesheet"  href="{% static 'styles\Gallery.css' %}">
+</head>
+
+<body>
+
+    <!--Menu Bar-->
+
+    <header>
+        <a href="#" class="logo">INVENTIX</a>
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="event">Events</a></li>
+            <li><a href="gallery" class="active">Gallery</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="contact">ContactUs</a></li>
+        </ul>
+    </header>
+
+
+    <br><br><br><br>
+
+    <!--Gallery-->
+
+    <div class="container">
+        <div class="box">
+            <img src="{% static 'images\9.IIT Jaipur.jfif' %}">
+            <span>IIT Jaipur-Techfest</span>
+        </div>
+        <div class="box">
+            <img src="{% static 'images\9..AWS.jpg' %}">
+            <span>AWS Workshop</span>
+        </div>
+        <div class="box">
+            <img src="{% static 'images\9.Robotics.jfif' %}">
+            <span>Robotics</span>
+        </div>
+        <div class="box">
+            <img src="{% static 'images\9.ValorantP.jfif' %}">
+            <span>Valorant Championship</span>
+        </div>
+        <div class="box">
+            <img src="{% static 'images\9.IdeaConvey.jfif' %}">
+            <span>Mentor Meeting</span>
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="box">
+            <img src="{% static 'images\9.Drone.jfif' %}">
+            <span>Drone</span>
+        </div>
+        <div class="box">
+            <img src="{% static 'images\9.Hackathon.jfif' %}">
+            <span>Hackathon</span>
+        </div>
+        <div class="box">
+            <img src="{% static 'images\9.Meeting.jfif' %}">
+            <span>Idea Convey</span>
+        </div>
+        <div class="box">
+            <img src="{% static 'images\9.Induction.jpg' %}">
+            <span>Induction</span>
+        </div>
+        <div class="box">
+            <img src="{% static 'images\9.inventix.jfif' %}">
+            <span>Inventix</span>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

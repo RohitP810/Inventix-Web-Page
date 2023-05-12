@@ -1,0 +1,77 @@
+.contact{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.anc_tags{
+    display: inline-grid;
+    grid-template-columns: auto;
+    margin-right: 2rem;
+    padding: 0rem 0rem 2rem 5rem;
+}
+.anc_tags> div{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: end;
+    width: 110px;
+    height: 50px;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.anc_tags> div:hover{
+    background-color: rgba(0, 0, 0, 0.529);
+}
+.fill_box{
+    display:inline;
+    grid-template-columns: auto;
+    width: 600px;
+}
+form{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+}
+label{  
+    font-size: 1.2rem;
+    width: 130px;
+    color: silver;
+}
+input,textarea{
+    width: 100%;    
+    font-size: 1.2rem;
+    min-width: 450px;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    opacity: 85%;
+    background-color: #ccc;
+}
+.input_contact{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content:left;
+    margin: 0.1rem;
+}
+button {
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 200px;
+}
+button:hover {
+    background-color: #3e8e41;
+}
+button>div{
+    width: 200px;
+}
+.anc_img{
+    height: 50px;
+    width: auto;
+    padding: 0%;
+}
